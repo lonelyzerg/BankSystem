@@ -1,0 +1,53 @@
+<style type="text/css" media=screen>
+body
+{
+	text-align: center;
+}
+#Header{
+			margin:0 auto;
+		}
+		#login{
+			font-family:Georgia, serif;
+			display: block;
+		    color: #666;
+		    text-align: right;
+		    padding: 0px 10px;
+		    text-decoration: none;
+		}            
+		#Logo{
+			margin-left:10 px;
+		}
+ 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 80px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+

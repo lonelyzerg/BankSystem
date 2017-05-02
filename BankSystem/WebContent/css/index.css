@@ -1,0 +1,106 @@
+<style type="text/css" media=screen>
+body
+{
+	text-align: center;
+}
+#Header{
+			margin:0 auto;
+		}
+		#login{
+			font-family:Georgia, serif;
+			display: block;
+		    color: #666;
+		    text-align: right;
+		    padding: 0px 10px;
+		    text-decoration: none;
+		}            
+		#Logo{
+			margin-left:10 px;
+		}
+ 
+		
+
+#container {
+	float: right;
+	
+}
+#Summary{
+	font-family:Georgia, serif;
+	display: block;
+    color: #666;
+    text-align: left;
+    padding: 0px 10px;
+    text-decoration: none;
+	float: left;
+}
+
+@-webkit-keyframes scrollText2 {
+      0%{
+          -webkit-transform: translateX(0px);
+      }
+      20%{
+          -webkit-transform: translateX(-204px);
+      }
+      40%{
+          -webkit-transform: translateX(-408px);
+     }
+     60%{
+         -webkit-transform: translateX(-612px);
+     }
+     80%{
+         -webkit-transform: translateX(-816px);
+     }
+     100%{
+         -webkit-transform: translateX(-1020px);
+     }
+     }
+ @keyframes scrollText2 {
+     0%{
+         transform: translateX(0px);
+     }
+     20%{
+         transform: translateX(-204px);
+     }
+     40%{
+         transform: translateX(-408px);
+     }
+     60%{
+         transform: translateX(-612px);
+     }
+     80%{
+         transform: translateX(-816px);
+     }
+     100%{
+         transform: translateX(-1020px);
+     }
+ }
+ 
+ .box4{
+   position: absolute;
+   top: 160px;
+   right: 700px;
+   width: 1500px;
+   height: 30px;
+   overflow: hidden;
+   
+ }
+ .border4{
+   position: absolute;
+   top: 0px;
+   left: 100px;
+   width: 3000px;
+   -webkit-animation:scrollText2 17s infinite  cubic-bezier(1,0,0.5,0) ;
+   animation:scrollText2 17s infinite  cubic-bezier(1,0,0.5,0) ;
+ }
+ .border4 div{
+   font-family:courier,fantasy;
+   font-weight:Normal;
+   height: 30px;
+   width: 320px;
+   overflow: hidden;
+   display: inline-block;
+ }
+ .border4:hover{
+   animation-play-state:paused;
+   -webkit-animation-play-state:paused;
+ }
