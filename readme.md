@@ -4,4 +4,6 @@ This project implemented a simple bank system which contains login, register, tr
 
 The default page is index.jsp. To login as admin, enter adminLogin.jsp page manually.
 
+Before running, change the username and password used to connect mysql to your own. the password is located in /BankSystem/src/db/Connect.java line 26.
+
 The bankdb.sql file is the script used to create the database of the bank system. Excute "source bankdb,sql" under mysql to set up the database.
